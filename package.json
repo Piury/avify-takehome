@@ -5,6 +5,12 @@
     "start": "webpack-dev-server --hot --progress"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.9",
+    "@mui/system": "^6.1.9",
+    "@mui/x-charts": "^7.23.0",
+    "axios": "^1.7.8",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
@@ -17,6 +23,7 @@
     "@babel/preset-typescript": "^7.22.5",
     "@babel/runtime": "^7.22.6",
     "@types/jest": "^29.5.2",
+    "@types/socket.io-client": "^3.0.0",
     "babel-jest": "^29.6.0",
     "babel-loader": "^9.1.2",
     "html-webpack-plugin": "^5.5.3",
